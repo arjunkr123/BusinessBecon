@@ -1,0 +1,68 @@
+#shiva
+{
+    width: 200px;
+    height: 80px;
+	
+    float:left;
+    margin:2px;
+	text-align:center;
+}
+.count
+{
+  line-height: 80px;
+  color: 000000;
+  font-size: 35px;
+  text-shadow: 0 0 1px #3e4095;
+  
+ 
+}
+
+.states{
+    color:#000000;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    text-align:center;
+	}
+
+#shiva .details{
+	position:relative;   
+	color:#3e4095; 
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+	font-size:15px;
+	height:auto;
+	text-align:center;
+	
+	
+	}
+
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+  float:left;
+  margin:20px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  color: black;
+}

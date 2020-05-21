@@ -1,0 +1,744 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 1200px (devices and browsers) */
+@media only screen and (max-width: 1500px) {
+.
+}
+@media only screen and (min-width : 1360px) and (max-width : 1370px) {
+/* Styles */
+	.event_calender{
+		height: 261px;
+	}
+
+	.section_two .in_the_news_section .event {
+	    margin: -8px 0px -6px;
+	    border-radius: 0px;
+	    padding: 0px 5px;
+	    background: #f2f2f2;
+	}
+	.current-openings .inner-title {
+	    padding: 30px 0 0 0;
+	}
+}
+@media only screen and (min-width : 1366px) {
+	.awards-section .left {
+    width: 50%;
+    float: left;
+    padding: 10px 55px;
+}
+
+.awards-section .left .containt p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+.section_one .section_one_inner .block .text p {
+
+    font-size: 16px;
+    color: #54555E;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0 0 -33px;
+    font-family: 'Roboto', sans-serif;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+.container {
+	width:90%;
+	margin:0 auto;
+}
+}
+@media only screen and (max-width: 1280px) {
+header{
+	padding:1%;
+	}
+
+	.sm-blue a, .sm-blue a:hover, .sm-blue a:focus, .sm-blue a:active, .sm-blue a.highlighted {
+	padding: 5px 7px!important;
+	letter-spacing:2px;
+	}
+
+	.top_bar .top_bar_content{
+	padding: 1% 7%;
+	}
+	.awards-section .left {
+	    width: 50%;
+	    float: left;
+	    padding: 6px 55px;
+	}
+	.awards-section .left .containt p {
+
+    font-size: 13px;
+    line-height: 12px;
+    color: #fff;
+	}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 600px) and (max-width : 1024px) {
+/* Styles */
+
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+	
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+/*#main{
+	  width:100%;
+	  padding:0;
+	  margin:0 auto;
+	  padding-top:56px;
+	}
+
+#main{
+	padding-top: 140px;
+}
+header nav{
+	padding: 0% 0% 0% 0%;
+}*/
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+/*#main {
+    margin:0 auto;
+    padding:56px 0 0;
+    width:100%;
+}
+header {
+    background:#fff none repeat scroll 0 0;
+    left:0;
+    position:fixed;
+    transition:height 0.3s ease 0s;
+    width:100%;
+    z-index:999;
+}
+header .logo{
+	width:15%;
+	}
+header.smaller .logo{
+	width:12%;
+	}*/
+
+
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px) and (orientation : landscape) {
+/*#main{
+	padding:0px;
+	}
+header{
+	padding:1% 0 2% 0!important;
+	}
+header.smaller {
+    height:70px!important;
+	}
+header .logo {
+    float:left!important;
+    width:23%!important;
+	position:absolute;
+	left:20px;
+	}
+header nav {
+    display:inline-block;
+    float:right;
+    padding:2% 2% 0 0!important;    
+    width:100%;
+	}
+
+.footer{
+	padding:4% 2%;
+	}*/
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	width:100%;
+	padding:15px;
+}
+header {
+	width:100%;
+	height:auto;
+	position:relative;
+}
+header.smaller {
+	top:0;
+	height:220px;
+	background-color:#fff;
+}
+header .logo {
+    float:left!important;
+    width:90%!important;
+	position:absolute;
+	left:26px;
+	top:10px!important;
+	}
+header nav {
+    display:inline-block;
+    float:right;
+    padding:4% 0 0 0;
+    width:100%;
+	}
+header.smaller .logo {
+	width:60%;
+	text-align:center;
+	margin:0 auto;
+	float:none;
+}
+#main{
+	padding:0px;
+	}*/
+
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 770px) and (orientation : landscape){
+
+
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 770px) {
+/* Styles */
+th, td {
+    font-size: 12px;
+}
+p{
+	font-size: 14px !important;
+	text-align: justify;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	width:100%;
+	padding:0;
+}
+.fa_menuarrow{
+	display:none!important;
+	}
+
+header {
+	width:100%;
+	height:auto;
+	position:relative;
+	background: #242021;
+}
+header.smaller {
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: #242021;
+}
+header .logo {
+    float: left !important;
+    position: absolute;
+    left: 20px;
+    top: 25px !important;
+    z-index: 999;
+    width: 90%;
+    background: #fff;
+    padding: 1px;
+    margin-top: 17px;
+}
+header .logo img{
+	width: 100%;
+	}
+header nav {
+    display:inline-block;
+    float:right;
+    padding:2% 2% 0 0;
+    width:100%;
+    margin-top: 18%;
+	}
+header.smaller .logo {
+	width:60%;
+	text-align:center;
+	margin:0 auto;
+	float:none;
+}
+header nav {
+	
+	background: transparent;
+}
+
+
+#main-menu .mobile_menu{
+	display: block;
+}
+.sticky_right{
+	display: none;
+}
+.title{
+	font-size: 20px;
+}
+.top_bar .top_bar_content {
+    padding: 1% 0%;
+}
+.top_bar .top_bar_content span {
+
+    padding-left: 0px;
+    color: #fff;
+    font-size: 8px;
+
+}
+.top_nav{
+	width: 100%;
+	text-align: left;
+}
+.fa_custom{
+	font-size: 16px !important;
+}
+#main{
+	padding:0px;
+	}
+.owl-theme .owl-controls .owl-buttons div.owl-prev{
+	position: absolute;
+	top: 10% !important;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next{
+	position: absolute;
+	top: 10% !important;
+}
+.section_stats{
+	margin: 0px;
+}
+.banner .banner_box .banner_text{
+	top: 76%;
+	margin-left: 3%;
+}
+
+.banner .banner_box .banner_text h2{
+	font-size: 9px;
+}
+
+.stats_container .block {
+	width: 100%;
+}
+.stats_container .block {
+    padding: 6%;
+}
+.stats_container .block .stat_title {
+    font-size: 11px;
+    line-height: 22px;
+}
+.stats_container .block{
+	border-bottom: 1px solid #575757;
+}
+.stats_container .block .stat_icon img{
+	width: 50%;
+}
+.practices_container .block {
+    width: 50%;
+}
+.insight_featured .quote {
+    font-size: 23px;
+}
+.practices-section .practices{
+	top: 15px;
+}
+.practices-section .practices-box{
+	width: 100%;
+	margin-bottom: 3%;
+}
+.practices_title {
+    font-size: 25px;
+    padding: 19px 1px 20px 0px;
+}
+.practices .practice_sub_menu a {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.online-news .speedbox img{
+	width: 50%;
+}
+.speed-meet-news .speedbox img{
+	width: 50%;
+}
+.section_two .section_two_right .section_two_right_left {
+    width: 100%;
+  }
+ .section_two .section_two_right .section_two_right_right {
+    width: 100%;
+}
+.section_testimonials .quote {
+
+    margin: -7px auto 0 auto;
+}
+.inner_banner .inner_banner_float {
+    top: 38%;
+}
+.inner_banner .inner_banner_float .title {
+    font-size: 23px;
+ }
+ .inner_banner .inner_banner_float .corporate {
+    font-size: 18px !important;
+ }
+ .section_inner_main .culture .block_1 .ul_li_contents ul li{
+ 	font-size: 15px;
+ }
+.section_inner_main .challenges .block_1 .left {
+    width: 100%;
+}
+.section_inner_main .challenges .block_1 .right {
+	width: 100%;
+}
+.section_inner_main .challenges .block_2 .left{
+    width: 100%;
+}
+.section_inner_main .case_studies .box p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.section_inner_main .case_study .block_1 .left {
+	width: 100%;
+}
+.section_inner_main .case_study .block_1 .right {
+	width: 100%;
+}
+.section_inner_main .case_study .content{
+	padding: 10px 15px !important;
+}
+.section_inner_main .driving_sales .block_1 .left {
+	width: 100%;
+}
+.section_inner_main .driving_sales .block_1 .right {
+	width: 100%;
+}
+.section_inner_main .driving_sales .content{
+	padding: 10px 15px !important;
+}
+.request_overlay_box{
+	width: 100%;
+	background: rgb(18, 17, 17);
+}
+#callback_captcha{
+	background: #fff;
+}
+.section_inner_main .challenges .read-more{
+	margin-bottom: 50px;
+}
+.section_inner_main .challenges .content {
+    height: 70px;
+}
+.leadership_box {
+    margin-top: 20px;
+}
+.section_inner_main .challenges .block_2 .right{
+    width: 100%;
+}
+ .section_inner_main .about .block_1 .left {
+    width: 100%;
+}
+.section_inner_main .about .block_1 .right {
+    width: 100%;
+ }
+.section_inner_main .mission .block_1 .left {
+    width: 100%;
+}
+.section_inner_main .mission .block_1 .right {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+ }
+ .section_inner_main .mission .block_2 .left {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+}
+.section_inner_main .mission .block_2 .right {
+    width: 100%;
+ }
+.about-section{
+	padding-top: 800px;
+}
+.section_inner_main .mission .block p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+.about-section .about-content .inner-title{
+	line-height: 26px;
+	font-size: 22px;
+	text-align: center;
+}
+.about-section .about-content .btn{
+	width: 46%;
+	padding: 8px;
+}
+
+.about-section .about-content-right{
+	padding-top: 10%;
+}
+.section_inner_main .leadership_team{
+	width: 100%;
+}
+.sme_focus_section{
+	padding: 25% 0;
+	height: 700px;
+}
+
+.section_inner_main .business_model .block_1 .left {
+    width: 100%;
+}
+.section_inner_main .business_model .block_1 .right {
+    width: 100%;
+}
+.section_inner_main .block .title {
+	font-size: 22px;
+}
+.section_inner_main .business_model .block_2 .left {
+    width: 100%;
+}
+.section_inner_main .business_model .block_2 .right{
+    width: 100%;
+}
+.section_inner_main .business_model .block p {
+    font-size: 14px;
+}
+
+.section_inner_main .culture .block_1 .left {
+    width: 100%;
+ }
+ .section_inner_main .culture .block_1 .right {
+    width: 100%;
+}
+
+.section_inner_main .culture .block p {
+    font-size: 14px;
+    padding-top: 0px;
+}
+.section_inner_main .our_founder .block_1 .left {
+    width: 100%;
+}
+.section_inner_main .our_founder .block_1 .right {
+    width: 100%;
+ }
+ .section_inner_main .leadership_team .box .box_name p {
+ 	text-align: center;
+ }
+ .section_inner_main .leadership_team .box {
+ 	height: auto;
+ }
+ .section_inner_main .leaderships_team_member .block_1 .left{
+ 	width: 100%;
+ }
+  .section_inner_main .leaderships_team_member .block_1 .right{
+ 	width: 100%;
+ 	padding: 20px;
+ }
+ .current-openings .inner-title{
+ 	padding: 0px 0 0 0;
+ }
+ .awards-section .left {
+    width: 100%;
+}
+.awards-section .right {
+    width: 100%;
+  }
+.section_inner_main .aaites_in_number .left p span {
+	font-size: 18px;
+}
+.section_inner_main .aaites_in_number .left p {
+    font-size: 17px !important;
+   line-height: 25px;
+}
+.section_inner_main .aaites_in_number .left{
+	position: relative;
+}
+.section_inner_main .aaites_in_number .img-box {
+    position: relative;
+    margin: 25px 0;
+    right: 0px;
+    top: 7px;
+}
+
+
+ .milestone .containt p {
+    font-size: 26px;
+    background: #fff;
+	margin: 5% 0;
+}
+.milestone .containt strong {
+    font-size: 35px;
+}
+.awards-section .left .containt p {
+    line-height: 20px;
+    text-align: left;
+}
+.awards-section .left {
+    float: left;
+    padding: 6px 10px;
+
+}
+.culture .address .locations{
+	text-align: center; 
+	font-size: 27px;
+	line-height: 35px;
+}
+.blog-articles-section{
+	margin: 230px 0 0 0;
+}
+.blog-articles-section .blog-articles .blog{
+	padding-bottom: 10%;
+}
+.section_inner_main .culture .block .mob p{
+	font-size: 18px;
+	padding: 0px 10px;
+}
+.download-brochure img {
+    width: 100% !important;
+}
+.business_section .segment_contents{
+	height: auto;
+}
+.section_inner_main .methodology .block_1 .left{
+    width: 100%;
+ }
+ .section_inner_main .methodology .block_1 .right {
+    width: 100%;
+}
+.section_inner_main .methodology .block_2 .left {
+    width: 100%;
+}
+.section_inner_main .methodology .block_2 .right {
+    width: 100%;
+ }
+
+.mobile_flex { 
+  display: flex; 
+  /* Optional, if you want the DIVs 100% width: */ 
+  flex-direction: column;
+}
+.mobile_flex .first_block { order: 1; }
+.mobile_flex .second_block { order: 2; }
+
+ .section_inner_main .culture .block_1 .ul_li_contents {
+    padding: 30px 25px 0px 25px;
+}
+.business_section .segment_contents h2{
+	font-size: 16px;
+}
+.section_inner_main .block .title {
+   	font-size: 20px;
+	color: #fbac43;
+	line-height: 28px;
+}
+
+.section_inner_main .culture .block_2 .left {
+    width: 100%;
+ }
+ .section_inner_main .culture .block_2 .right{
+    width: 100%;
+ }
+ .section_inner_main .culture .download-brochure{
+ 	width: 70%;
+ 	margin: 0 auto;
+ }
+
+.sab_section{
+	padding: 10% 0;
+	margin-top: 10%;
+}
+.carrer-banner-text {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+.career_form_overlay_box {
+    width: 90%;
+ }
+.carrer-banner .inner-title {
+    font-size: 20px;
+}
+.current-openings {
+   padding-top: 40px;
+}
+.sab_section .segment_contents{
+	height: auto;
+}
+.our_presence_section .our_presence .our_presence_box {
+    border: 1px solid #2e2e2e;
+    height: 270px;
+    margin-top: 20px;
+}
+.video-section .video-box .gallery_box {
+    margin-bottom: 20px;
+}
+.testimonials-section .testimonials-box .gallery_box {
+    margin-bottom: 20px;
+}
+.SMEs-IPO-section .ipo-chart {
+    width: 100%;
+ }
+ .SMEs-IPO-section .ipo-content {
+    width: 100%;
+}
+.SMEs-state-section .state-wise-ipo {
+    width: 100%;
+ }
+ .SMEs-state-section .state-chart {
+    width: 100%;
+}
+.various-schemes .strong-para strong{
+	font-size: 13px;
+}
+.section_inner_main .block_text {
+    padding: 4% 2%;
+}
+.section_inner_main .inner-title h2 {
+    font-size: 15px;
+    color: #fbac43;
+    line-height: 21px;
+}
+.SME-trends .trends-block .block{
+	margin: 0;
+}
+.SME-trends .trends-block .block-title {
+	 font-size: 20px;
+ }
+.case_studies .owl-item{
+	width: 100%;
+}
+.section_inner_main .mob p{
+	padding: 0px 10px;
+}
+.section_inner_main .block .mob p{
+	padding: 0px 10px;
+}
+.footer-section .footer .copyright{
+	width: 100%;
+	text-align: center;
+}
+.footer-section .footer .social-media{
+	width: 100%;
+	text-align: center;
+}
+
+
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+ <br />
+<b>Warning</b>:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/aaconsultingco/public_html/business-fundamentals/index.php:3) in <b>/home/aaconsultingco/public_html/business-fundamentals/index.php</b> on line <b>4</b><br />
+<br />
+<b>Warning</b>:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/aaconsultingco/public_html/business-fundamentals/index.php:3) in <b>/home/aaconsultingco/public_html/business-fundamentals/index.php</b> on line <b>4</b><br />
+   
+
+<!-- Mirrored from www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/bootstrap.min.css by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 May 2020 12:57:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Business Growth Calculator</title>
+<link rel="shortcut icon" href="https://www.aaconsulting.co.in/images/favicon.png" />
+
+<link rel="stylesheet" href="https://www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/css/custom.css" type="text/css">
+<link rel="stylesheet" media="screen" href="https://www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/js/bootstrap/bootstrap.min.css" type="text/css" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106853762-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106853762-4');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MD5JBC7');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '881300978705413'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=881300978705413&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+<div class="site_wrapper"> 
+  
+<div class="clearfix"></div>  
+
+<head>
+	</head>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '881300978705413'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=881300978705413&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<script>
+function check1()
+{
+	if (document.getElementById('fname').value == "")
+  {
+  		alert("Please Enter the Name. ");
+		  document.getElementById('fname').value = "";
+		  document.getElementById('fname').focus();
+		  return false;
+		
+  }
+
+  if (document.getElementById('cname').value == "")
+  {
+  		alert("Please Enter the Company Name. ");
+		  document.getElementById('cname').value = "";
+		  document.getElementById('cname').focus();
+		  return false;
+		
+  }
+		 
+		 /*var email=document.getElementById('emailid').value;
+		 var AtPos=email.indexOf("@");
+		 var StopPos=email.lastIndexOf(".");
+
+		if (AtPos == -1 || StopPos == -1)
+		   {
+			
+		  	alert("Please input valid email address");
+		  document.getElementById('emailid').value = "";
+		  document.getElementById('emailid').focus();
+			return false;
+		}*/
+		
+		if (document.getElementById('cnumber').value == "") {
+		  alert("Please enter a mobile number.");
+		  document.getElementById('cnumber').focus();
+		  return false;
+		 }
+		  else if (isNaN(document.getElementById('cnumber').value)) {
+		  alert("The mobile number contains only numberical characters.");
+		  document.getElementById('cnumber').focus();
+		  return false;
+		 }
+		 else if (!(document.getElementById('cnumber').value.length == 10)) {
+		  alert("The mobile number is the wrong length. \nPlease enter 10 digit mobile no.");
+		  document.getElementById('cnumber').focus();
+		  return false;
+		 }
+		
+		
+		
+		 if (document.getElementById('location').value == "")
+  {
+  		alert("Please Enter the Location. ");
+		  document.getElementById('location').value = "";
+		  document.getElementById('location').focus();
+		return false;
+  }
+  
+  if (document.getElementById('employee').value == "")
+  {
+  		alert("Please Enter the no of employees. ");
+		  document.getElementById('employee').value = "";
+		  document.getElementById('employee').focus();
+		  return false;
+		
+  }
+  
+  if (document.getElementById('turnover2').value == "")
+  {
+  		alert("Please Enter the turnover(2018-19). ");
+		  document.getElementById('turnover2').value = "";
+		  document.getElementById('turnover2').focus();
+		  return false;
+		
+  }
+
+
+}
+
+
+</script>
+
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+	  .entry-title
+	  {
+		  text-align:center;
+	  }
+</style>
+<!-- Start Site Content -->
+		<div class="bbanner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-3"></div>
+					<div class="col-md-4 col-sm-6">
+						<a href="https://www.aaconsulting.co.in/" target="_blank"><img src="https://www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/aaimg/logo.jpg" alt="Business Growth Calculator | A&A Business Consulting (AABC)" title="Business Growth Calculator | A&A Business Consulting (AABC)" class="aalogo" /></a>
+					</div>
+					<div class="col-md-4"></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-1"></div>
+					<div class="col-xs-12 col-md-10">
+						<div class="section-title" style="margin: 0;"> 
+							<h2>Are these <span> 10 Fundamentals </span> of your business strong?</h2>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+
+					<div class="col-md-12 col-sm-12">
+						<p>Find out by answering the following questions.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<script>
+            function checkOther()
+            {
+                var location = document.getElementById("location").value;
+                
+                if(location == "Other")
+                {
+                    document.getElementById("checkOther").style.display = "block";
+                }
+                else
+                {
+                    document.getElementById("checkOther").style.display = "none";
+                }
+            }
+        </script>
+		<div class="site-content ptb-30" id="summary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12"> 
+					    <div class="content-area ptb30"> 
+                            <div class="row">
+							    <div class="contact-us"> 
+									<div class="col-xs-12 col-md-2"> 
+									   
+									</div>
+
+									<div class="col-xs-12 col-md-8" id="box-quiz">
+										
+										<form class="contact-us-form" name="contact3" id="contact3" method="post">
+                                            
+                                            <h5 class="entry-title">Fill your details here</h5><br>
+                                            
+                                            <!-- End Single Field -->
+											<div class="single-field">
+												<input id="fname" name="fname" class="col-md-6 col-xs-12 txtcss" type="text" placeholder="Full Name*">
+												<input id="cname" name="cname" class="col-md-6 col-xs-12 txtcss" type="text" placeholder="Company Name*">
+                                            </div>
+											<div class="clearfix"></div>
+											<br>
+											<!-- End Single Field -->
+											<div class="single-field">
+												<input id="emailid" name="emailid" class="col-md-6 txtcss" type="text" placeholder="Email ID">
+												<input id="cnumber" name="cnumber" class="col-md-6 txtcss" type="text" placeholder="Mobile Number*">
+											</div>
+											<div class="clearfix"></div>
+											<br>
+
+											<div class="single-field">
+												<!--<input id="location" name="location" class="col-md-6 txtcss" type="text" placeholder="Location*">-->
+												<select class="form-control col-md-6" id="location" name="location" onchange="return checkOther();">
+                                                    <option value="">Select Location*</option>
+                                                    <option value="Indore">Indore</option>
+                                                    <option value="Ahmedabad">Ahmedabad</option>
+                                                    <option value="Mumbai">Mumbai</option>
+                                                    <option value="Hyderabad">Hyderabad</option>
+                                                    <option value="Ludhiana">Ludhiana</option>
+                                                    <option value="Delhi">Delhi</option>
+                                                    <option value="Raipur">Raipur</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+    											<div style="display: none;" id="checkOther">
+    											    <input id="location1" name="location1" class="col-md-6 txtcss" type="text" placeholder="Your Location*">
+                                                </div>
+											</div>
+											<div class="clearfix"></div>
+											<br>
+											
+											<div class="single-field">
+												<input id="employee" name="employee" class="col-md-6 txtcss" type="text" placeholder="Number of Employees*">
+												<input id="turnover2" name="turnover2" class="col-md-6 txtcss" type="text" placeholder="Turnover* e.g. 50 Lakhs, 1 Crore, etc.">
+											</div>
+											<div class="clearfix"></div>
+											<br>
+											
+											<!-- End Single Field -->
+											<div class="col-md-10 col-sm-10"></div>
+											<div class="single-field">
+											    <input type="submit" name="submitbtn" class="col-md-2 col-sm-2 btn brn-primary txtcss" id="submitbtn" value="Get Started" onClick=" return check1();"/>											
+											</div>
+											<div class="clearfix"></div>
+											<br>
+											<div class="col-md-12">
+	  											<p class="infoline">All (*) fields are mandatory. Information provided will be kept confidential.</p>
+											</div>
+											<div class="clearfix"></div>
+										</form>
+									</div>
+								</div>
+                            </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			
+
+			
+		</div>
+		<!-- End Site Content -->		
+
+		
+
+</div>
+
+<!-- ========== Js files ========== --> 
+
+<script src="https://www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+
+<!-- Mirrored from www.aaconsulting.co.in/business-fundamentals/js/fonts/js/bootstrap/css/css/js/bootstrap/css/js/bootstrap/bootstrap.min.css by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 May 2020 12:57:55 GMT -->
+</html>
